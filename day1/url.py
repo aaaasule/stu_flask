@@ -4,4 +4,4 @@
 # @File    : url.py
 from flask import url_for
 
-url_for('static',filename='style.css')
+url_for('static', filename='style.css')
