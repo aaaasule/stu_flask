@@ -15,7 +15,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25fa7a57-99d2-4192-93d7-592ece827703" name="Default Changelist" comment="day_one_company">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3/.idea/day3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3/App/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3/App/ext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3/App/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3/App/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3/App/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3/App/views/first_blue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2/App/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day2/App/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +61,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowConcurrent Activities Diagram.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../day2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -131,6 +138,7 @@
       <workItem from="1597110343749" duration="1231000" />
       <workItem from="1597220720156" duration="5616000" />
       <workItem from="1597279851022" duration="560000" />
+      <workItem from="1597987272894" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="day_one_company">
       <created>1597225613637</created>

@@ -9,7 +9,6 @@
 from flask import Flask
 
 from App.ext import init_ext
-# from App.models import init_model
 from App.settings import envs
 from App.views import init_views
 
