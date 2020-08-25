@@ -12,7 +12,7 @@ from App.ext import db
 class ModelBase(object):
 
     def save(self):
-        db.session.add()
+        db.session.add(self)
         db.session.commit()
 
 
