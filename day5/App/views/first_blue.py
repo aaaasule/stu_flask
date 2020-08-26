@@ -9,7 +9,7 @@
 from flask import Blueprint, jsonify
 from App import models
 from App.models import Users
-from App.ext import db
+from App.ext import models
 
 first_blue = Blueprint("blue", __name__)
 
@@ -21,7 +21,7 @@ def blue():
 
 @first_blue.route('/create_all')
 def create_all():
-    db.create_all()
+    models.create_all()
     return jsonify(msg="Success")
 
 
