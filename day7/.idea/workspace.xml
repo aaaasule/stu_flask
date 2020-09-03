@@ -5,18 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b3fa092-8e0b-4c6b-8a62-41de3b3b1871" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/day7.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/ext.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/views/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/views/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day8/.idea/day8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day8/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day8/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day8/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day8/App/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day8/App/ext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day8/App/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day8/App/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day8/App/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day8/App/views/api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +59,10 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/App" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -85,6 +87,9 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8b3fa092-8e0b-4c6b-8a62-41de3b3b1871" name="Default Changelist" comment="" />
@@ -93,11 +98,12 @@
       <option name="presentableId" value="Default" />
       <updated>1598961420523</updated>
       <workItem from="1598961421698" duration="1401000" />
+      <workItem from="1599100691722" duration="79000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="583" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598962822858">
