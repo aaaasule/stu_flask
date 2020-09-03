@@ -5,14 +5,22 @@
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
+<<<<<<< HEAD
     <orderEntry type="jdk" jdkName="Python 3.6 (stu)" jdkType="Python SDK" />
+=======
+    <orderEntry type="inheritedJdk" />
+>>>>>>> master
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
     <option name="TEMPLATE_FOLDERS">
       <list>
+<<<<<<< HEAD
         <option value="$MODULE_DIR$/../day6\templates" />
+=======
+        <option value="$MODULE_DIR$/templates" />
+>>>>>>> master
       </list>
     </option>
   </component>
