@@ -11,10 +11,10 @@
 class Config:
     DEBUG = True
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-
+    # SQLALCHEMY_TRACK_MODIFICATIONS
 
 class DevelopConfig(Config):
-    SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:123456@localhost:3306/day10"
+    SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:lionel123@localhost:3306/day10"
 
 
 class TestConfig(Config):
