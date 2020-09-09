@@ -17,7 +17,7 @@ class Config:
 
     SESSION_TYPE = 'redis'
 
-    SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:123456@localhost:3306/day11"
+    SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:123456@172.17.0.2:3306/day11"
 
 
 class DevelopConfig(Config):
