@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>students_list</title>
+    <link rel="stylesheet" href="/static/css/student.css">
+</head>
+<body>
+{% for student in students %}
+    <li style="color: orange">{{ student.name }}</li>
+
+{% endfor %}
+
+
+</body>
+</html>
