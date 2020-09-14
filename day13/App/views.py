@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-from flask import Blueprint, jsonify
+from flask import Blueprint, jsonify, render_template
 from App import models
 from App.models import Animal, Cat, Dog
 
@@ -45,6 +45,18 @@ def add_dog():
 @blue.route('/get_cats/')
 def get_cats():
     # cat = Cat()
-    cats = Cat.query.filter(Cat.id.__eq__(2))  # __eq__ 等于
+    # cats = Cat.query.filter(Cat.id.__eq__(2)).all()  # __eq__ 等于  __lt__  小於 __le__ 小於等於
+
+    """
+    類名.屬性名.魔術方法
+    類名.屬性名 數學運算符
+
+    :return:
+    """
+    # cats = Cat.query.filter(Cat.id == 2)
+
+    cats = Cat.query.filter(Cat.a_name.contains("黑"))   # 屬性  a_name  中包含   黑  的  一條數據
     print("cats:{}".format(cats))
-    return "get cats success"
+    print(type(cats))
+
+    return render_template("Cats.html", cats=cats)

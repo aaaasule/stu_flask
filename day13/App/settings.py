@@ -5,12 +5,12 @@ class Config(object):
     DEBUG = False
     TESTING = False
 
-    SQLALCHEMY_TRACK_MODIRICATIONS = False
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 
 class DevelopConfig(Config):
     DEBUG = True
-    SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:123456@localhost:3306/day13"
+    SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:123456@172.17.0.2:3306/day13"
 
 
 class TestConfig(Config):
