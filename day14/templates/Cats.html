@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cats</title>
+</head>
+<body>
+<ul>
+    {% for foo in cats %}
+    <li>{{ foo.a_name }}</li>
+    <li>{{ foo.a_breed }}</li>
+    <li>{{ foo.a_color }}</li>
+    <li>{{ foo.c_eat }}</li>
+    {% endfor %}
+
+</ul>
+</body>
+</html>
