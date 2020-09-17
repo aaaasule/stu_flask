@@ -2,9 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Cats</title>
 </head>
 <body>
-$END$
+<ul>
+    {% for cat in cats %}
+        <li>{{ cat.a_name }}</li>
+    {% endfor %}
+
+</ul>
+
 </body>
 </html>
