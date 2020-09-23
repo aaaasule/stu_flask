@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Today News</title>
+</head>
+<body>
+<h1>今日新闻</h1>
+<ul>
+    {% for new in news %}
+        <li>{{ new.n_title }}</li>
+{#        <li>new.n_content</li>#}
+    {% endfor %}
+</ul>
+
+</body>
+</html>

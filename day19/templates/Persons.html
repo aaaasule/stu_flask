@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Person</title>
+</head>
+<body>
+<ul>
+    {% for person in persons %}
+        <li>{{ person }}</li>
+    {% endfor %}
+
+</ul>
+
+<hr>
+<div class=pagination>
+    {%- for page in pagination.iter_pages() %}
+        {% if page %}
+            {% if page != pagination.page %}
+                <a href="{{ url_for('blue.get_person') }}?page={{ page }}&per_page={{ per_page }}">{{ page }}</a>
+            {% else %}
+                <strong>{{ page }}</strong>
+            {% endif %}
+        {% else %}
+            <span class=ellipsis>…</span>
+        {% endif %}
+    {%- endfor %}
+</div>
+
+</body>
+</html>
