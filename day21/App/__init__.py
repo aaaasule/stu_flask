@@ -14,4 +14,5 @@ def create_app(env):
     init_ext(app)
 
     init_views(app)
+
     return app

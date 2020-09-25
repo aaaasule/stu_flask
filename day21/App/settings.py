@@ -33,6 +33,8 @@ class DevelopConfig(Config):
     SQLALCHEMY_DATABASE_URI = create_url(info)
 
 
+
+
 class TestConfig(Config):
     pass
 
