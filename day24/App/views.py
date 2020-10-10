@@ -12,7 +12,7 @@ def init_views(app):
     app.register_blueprint(blueprint=blue)
 
 
-blue = Blueprint("blue", __name__)
+blue = Blueprint("blue", __name__, static_folder="../static")
 
 
 @blue.route("/index/")
@@ -71,3 +71,8 @@ def send_mail():
 @blue.route("/sendcode/")
 def send_code():
     return "send code success"
+
+
+@blue.route("/login_jquery/")
+def login_jquery():
+    return render_template("login.html")
